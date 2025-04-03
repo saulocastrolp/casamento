@@ -16,7 +16,7 @@ module.exports = async (req, res) => {
         return res.status(400).json({ error: 'Telefone inválido. Use DDD + número (ex: 37998042803)' });
     }
 
-    const jsonPath = path.join(__dirname, '..', 'telefones.json');
+    const jsonPath = path.join(__dirname, 'telefones.json');
     const data = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
     const convidados = data.convidados;
 
