@@ -2,8 +2,7 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/backend/server.min.js" />
-        <item url="file://$PROJECT_DIR$/frontend/script.min.js" />
+        <item url="file://$PROJECT_DIR$/api/validar.min.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
