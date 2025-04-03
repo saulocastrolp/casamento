@@ -1,5 +1,4 @@
-const fs = require('fs');
-const path = require('path');
+const convidados = require('../data/telefones.json').convidados;
 
 function isValidBrazilianPhone(phone) {
     return /^[1-9]{2}9[0-9]{8}$/.test(phone);
@@ -15,10 +14,6 @@ module.exports = async (req, res) => {
     if (!telefone || !isValidBrazilianPhone(telefone)) {
         return res.status(400).json({ error: 'Telefone inválido. Use DDD + número (ex: 37998042803)' });
     }
-
-    const jsonPath = path.join(__dirname, 'telefones.json');
-    const data = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
-    const convidados = data.convidados;
 
     const encontrado = convidados.find(item => Object.keys(item)[0] === telefone);
 
