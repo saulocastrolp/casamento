@@ -13,7 +13,7 @@ body::before {
   left: -100px;
   width: 400px;
   height: 400px;
-  background: url(flor-lilas.png) center no-repeat;
+  background: url(../assets/flor-lilas.png) center no-repeat;
   background-size: contain;
   transform: rotate(120deg);
 }
@@ -24,7 +24,7 @@ body::after {
   right: -100px;
   width: 400px;
   height: 400px;
-  background: url(flor-lilas.png) center no-repeat;
+  background: url(../assets/flor-lilas.png) center no-repeat;
   background-size: contain;
   transform: rotate(-60deg);
 }
