@@ -20,7 +20,15 @@ const indispensaveis = {
         { "37999672878": { "nome": "TâniaMara", "quantidade": 2 } },
         { "37999362764": { "nome": "Jéssica", "quantidade": 2 } },
         { "37999990435": { "nome": "Joelma", "quantidade": 2 } },
-        { "31997117601": { "nome": "Júlio Cesar", "quantidade": 2 } }
+        { "31997117601": { "nome": "Júlio Cesar", "quantidade": 2 } },
+        { "37999187641": { "nome": "Aline Faria", "quantidade": 2 } },
+        { "37999623881": { "nome": "Daniel Castro", "quantidade": 2 } },
+        { "37998685041": { "nome": "Elen Nara", "quantidade": 3 } },
+        { "37988048210": { "nome": "Fabiana", "quantidade": 2 } },
+        { "3799845907": { "nome": "Jônatan Castro", "quantidade": 2 } },
+        { "37988032788": { "nome": "Josiane Faria", "quantidade": 2 } },
+        { "37999190371": { "nome": "Samuel Castro", "quantidade": 2 } },
+        { "37999537498": { "nome": "Raíssa Castro", "quantidade": 2 } },
     ]
 };
 
