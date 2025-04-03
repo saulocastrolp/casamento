@@ -42,7 +42,7 @@ const indispensaveis = {
         { "37998650733": { "nome": "Lílian", "quantidade": 2 } },
         { "37999197757": { "nome": "Michel", "quantidade": 2 } },
         { "37999232303": { "nome": "Jose Antônio", "quantidade": 2 } },
-        { "37999232303": { "nome": "Jose Antônio", "quantidade": 2 } },
+        { "31997117601": { "nome": "Júlio César", "quantidade": 2 } },
     ]
 };
 
