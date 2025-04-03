@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
 
-        fetch('https://casamento-saulo-nayara.vercel.app/validar', {
+        fetch('/validar', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({telefone})
